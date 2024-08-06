@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fonte em CSS</title>
+  <style>
+    body{font-family: Arial, Helvetica, sans-serif;}
+      /* 
+        Medidas absolutas - cm, mm, in(polegadas), px, pt, pc
+        Medidas relativas - em (tamanho atual da fonte, altura do M maiusculo), ex (Relativa a  altura x de uma fonte), rem (relativa ao root, a fonte que está configurada no body), vw (Largura da viewport que é o tamanho da sua tela), vh (Tamanho da viewport), %
+
+       Segundo a W3C as medidas para tamanho de fonte recomendas são a "px" e "em".
+       16px geralmente = 1em
+      */
+    
+      /*
+        fonte-size: 1em;
+        fonte-weight: bolder;
+        fonte-style: italic;
+        text-decoration: underline;
+      */
+      
+      h1{
+         font-family: work sans, sans-serif;
+         font-weight: bolder;
+         font-size: 3em;
+         font-style: italic;
+      /* 
+         shorthhand-font
+          font-style -> font-weight -> font-size -> font-family
+      */
+      font: italic bolder 3em 'work sans, sans-sarif';    
+      
+      }
+
+      h2{
+         font: bold 2em 'work sans';
+
+      }
+
+    </style>
+</head>
+<body>
+  <h1>Trabalhando com fontes</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam tenetur qui amet similique quam autem optio corrupti, est at quia dolore aut animi, quos recusandae! Inventore provident repellendus sit architecto!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro placeat iste cumque totam aut eius impedit, quia, excepturi ipsam itaque ratione molestiae iure, laboriosam ipsum aliquam aspernatur nobis fugit harum?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellat incidunt eum error cum corrupti at culpa. Aspernatur, possimus libero consectetur commodi, blanditiis quasi ipsum velit corporis in aut modi?</p>
+  <h2>Subtítulo do exercício</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellat incidunt eum error cum corrupti at culpa. Aspernatur, possimus libero consectetur commodi, blanditiis quasi ipsum velit corporis in aut modi?</p>
+</body>
+</html>
